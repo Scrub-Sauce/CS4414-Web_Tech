@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- ec2-44-201-196-59.compute-1.amazonaws.com/hw11/index.html -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculator Example</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<script src="assets/js/calculator.js"></script>
+	</head>
+
+	<body>
+		<div id="page-inner">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label>First Number:</label>
+						<input class="form-control" type="text" id="num1">
+						<p class="help-block" id="num1Help"></p>
+					</div>
+					<div class="form-group">
+						<label>Second Number:</label>
+						<input class="form-control" type="text" id="num2">
+						<p class="help-block" id="num2Help"></p>
+					</div>
+					<div class="form-group">
+						<label>Function:</label>
+						<select id="funct" name="funct">
+							<option value="multiply">Multiply</option>
+							<option value="add">Addition</option>
+							<option value="subtract">Subtract</option>
+							<option value="divide">Divide</option>
+						</select>
+					</div>
+					<button class="btn btn-block btn-success" type="submit" onclick="calc();">Calculate</button>
+					<div id="answer"></div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

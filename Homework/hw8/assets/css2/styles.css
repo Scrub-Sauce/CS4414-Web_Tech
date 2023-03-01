@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.navButton{
+	background-color: #0000FF;
+	text-align:center;
+	text-color:#FFFFFF;
+	border-radius:25px;
+	}
+.navBar{
+	padding:25px;
+	}
+a:link, a:visited{
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
